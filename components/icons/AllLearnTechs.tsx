@@ -61,13 +61,6 @@ const AllLearningTechs = () => {
           </div>
         </motion.li>
 
-        {/* Spark */}
-        <motion.li style={{ opacity: 1, transform: 'none' }} variants={animation}>
-          <div className='transition duration-200 brightness-100 hover:brightness-50'>
-            <Image src='/skills/spark.svg' alt=' ' width={42} height={32} title="Spark"/>
-          </div>
-        </motion.li>
-
         {/* Airflow */}
         <motion.li style={{ opacity: 1, transform: 'none' }} variants={animation}>
           <div className='transition duration-200 brightness-100 hover:brightness-50'>
